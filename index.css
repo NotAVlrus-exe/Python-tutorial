@@ -2,12 +2,12 @@ body{
     color: rgba(210, 210, 210, 0.374);
     font-family: Jason;
     padding-left: 2em;
-    background-color: #001d09 }
+    background-color: #0d1117 }
 
     }
     .navbar a {
         text-decoration: none;
-        color: #001d09;
+        color: #0d1117;
         font-size: 30;
         background:rgba(210, 210, 210, 0.374);
         padding: 2px;
@@ -15,7 +15,7 @@ body{
         right: 3;
     }
     .weitere_links a{
-        color: rgba(210, 210, 210, 0.374);
+        color: #0d1117;
     }
 
     address {
