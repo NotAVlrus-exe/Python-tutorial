@@ -1,0 +1,25 @@
+body{
+    color: rgba(210, 210, 210, 0.374);
+    font-family: Jason;
+    padding-left: 2em;
+    background-color: #001d09 }
+
+    }
+    .navbar a {
+        text-decoration: none;
+        color: #001d09;
+        font-size: 30;
+        background:rgba(210, 210, 210, 0.374);
+        padding: 2px;
+        margin: 80px;
+        right: 3;
+    }
+    .weitere_links a{
+        color: rgba(210, 210, 210, 0.374);
+    }
+
+    address {
+        margin-top: 1em;
+        padding-top: 1em;
+        border-top: thin dotted
+    }
