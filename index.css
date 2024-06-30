@@ -1,24 +1,33 @@
-body{
+    body{
     color: rgb(230, 237, 243);
     font-family: Jason;
-    padding-left: 2em;
-    background-color:rgb(13, 17, 23)}
+    padding-left: 20px;
+    background-color:rgb(13, 17, 23);
+    overflow: hidden;
+    }
 
-    .navbar a {
+    .navbar {
+        display: flex;
+        width: 100vw;
+        height: 50px;
+        justify-content: flex-start;
+        background-color: rgb(1, 4, 9);
+        margin: -8px 0px 0px -40px;
+        padding-top: 10px;
+    }
+    
+    .item a {
+        display: inline-flex; 
         text-decoration: none;
-        color: rgb(13, 17, 23);
-        font-size: 30;
-        background:rgb(230, 237, 243);
-        padding: 2px;
-        margin: 80px;
-        right: 3;
+        background-color: rgb(1, 4, 9);
+        color: rgb(230, 237, 243);
+        font-size: 30px; 
+        margin-top: -8px;
+        padding: 12px 83px;
+        transition: background-color 0.01s ease;
     }
-    .weitere_links a{
-        color: rgb(13, 17, 23);
+    
+    .item a:hover {
+        background-color: rgb(22, 27, 34);
     }
-
-    address {
-        margin-top: 1em;
-        padding-top: 1em;
-        border-top: thin dotted
-    }
+    
